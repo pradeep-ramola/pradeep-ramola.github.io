@@ -26,7 +26,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'LeetCode',
-    url: 'https://leetcode.com/u/pradeep-ramola',
+    url: 'https://leetcode.com/u/pradeepramola/',
     icon: 'code',
     label: 'View my LeetCode',
   },
@@ -35,4 +35,4 @@ export const socialLinks: SocialLink[] = [
 export const email = 'pramola@buffalo.edu';
 export const linkedIn = 'https://linkedin.com/in/pradeep-singh-ramola';
 export const github = 'https://github.com/pradeep-ramola';
-export const leetCode = 'https://leetcode.com/u/pradeep-ramola';
+export const leetCode = 'https://leetcode.com/u/pradeepramola/';

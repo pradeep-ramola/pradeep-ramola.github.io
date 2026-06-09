@@ -17,8 +17,8 @@ export default function Contact() {
             <p className="section-kicker">contact</p>
             <h2 className="section-title mt-4">Want to build something real?</h2>
             <p className="section-lead mt-6">
-              I am open to software engineering, full-stack, AI/ML, research, and internship roles Email is the fastest
-              path
+              I am open to software engineering, full-stack, AI/ML, research, internship, and full-time roles Email is
+              the fastest path
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <a href={`mailto:${email}`} className="btn-primary">

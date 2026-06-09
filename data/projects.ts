@@ -21,7 +21,6 @@ export const projects: Project[] = [
     technologies: ['Python', 'PyTorch', 'Transformers'],
     category: 'ai-ml',
     featured: true,
-    github: 'https://github.com/pradeep-ramola/tinygpt',
   },
   {
     id: 'vit-cifar',
@@ -43,7 +42,7 @@ export const projects: Project[] = [
     technologies: ['Python', 'PyTorch', 'Hugging Face', 'NLP'],
     category: 'nlp',
     featured: true,
-    github: 'https://github.com/pradeep-ramola/bert-hate-speech',
+    github: 'https://github.com/pradeep-ramola/bert-fine-tuning-',
   },
   {
     id: 'victor-ai',
