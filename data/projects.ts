@@ -13,6 +13,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 'ai-native-control-tower',
+    title: 'AI-Native Delivery Control Tower',
+    description: 'Built a local-first delivery control tower with agent planning, patch generation, risk scoring, policy gates, canary signals, and rollback handling',
+    longDescription:
+      'Built a software delivery control tower inspired by agentic delivery platforms, with task intake, agent planning, patch generation, validation, explainable risk scoring, release policy gates, canary telemetry, rollback handling, and SQLite persistence',
+    technologies: ['Python', 'FastAPI', 'Streamlit', 'Ollama'],
+    category: 'llm',
+    featured: true,
+    github: 'https://github.com/pradeep-ramola/ai-native-delivery-control-tower',
+  },
+  {
+    
     id: 'tinygpt',
     title: 'TinyGPT: Character-Level GPT',
     description: 'Built a 145K-parameter decoder-only GPT from scratch with causal multi-head self-attention and advanced training techniques',
@@ -61,18 +73,8 @@ export const projects: Project[] = [
     longDescription:
       'Created a comprehensive accessibility application that translates speech, text, and video inputs to Braille in real time Focused on improving accessibility for visually impaired users',
     technologies: ['Speech Recognition', 'Computer Vision', 'Braille Translation'],
-    category: 'cv',
+    category: 'ai-ml',
     featured: true,
   },
-  {
-    id: 'ai-native-control-tower',
-    title: 'AI-Native Delivery Control Tower',
-    description: 'Built a local-first delivery control tower with agent planning, patch generation, risk scoring, policy gates, canary signals, and rollback handling',
-    longDescription:
-      'Built a software delivery control tower inspired by agentic delivery platforms, with task intake, agent planning, patch generation, validation, explainable risk scoring, release policy gates, canary telemetry, rollback handling, and SQLite persistence',
-    technologies: ['Python', 'FastAPI', 'Streamlit', 'Ollama'],
-    category: 'llm',
-    featured: true,
-    github: 'https://github.com/pradeep-ramola/ai-native-delivery-control-tower',
-  },
+
 ];
