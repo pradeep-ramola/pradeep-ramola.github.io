@@ -41,7 +41,7 @@ export const projects: Project[] = [
     longDescription:
       'Built a complete Vision Transformer implementation with convolutional patch embeddings, learnable CLS token, multi-head self-attention, pre-norm blocks, and classifier head Conducted comprehensive ablation studies across patch sizes, model depths, and positional encodings Developed custom metrics including attention-entropy and spatial-correlation to analyze patch-level attention behavior',
     technologies: ['Python', 'PyTorch', 'Computer Vision'],
-    category: 'cv',
+    category: 'ai-ml',
     featured: true,
     github: 'https://github.com/pradeep-ramola/vision-transformer',
   },
